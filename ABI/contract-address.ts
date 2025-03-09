@@ -1,3 +1,3 @@
-export const NebulaXNFT = "0xd703d7ce445177e4ef3bee4e5e36287aec5ac08a";
-export const NebulaXToken = "0x3274c56e38780d1e99a6aa5e1d8faa1e5e93c381";
-export const NebulaX = "0x4c555FD945058E0bb6209097454b8aFA5ac9Cd02";
+export const NebulaXNFT = "0xd703d7Ce445177E4eF3beE4e5e36287aeC5AC08A";
+export const NebulaXToken = "0x3274C56e38780d1E99A6Aa5E1d8FaA1E5e93C381";
+export const NebulaX = "0xBD00D5481Cb6F00FE9d3c437F21795A284f6cE3C";

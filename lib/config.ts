@@ -12,29 +12,29 @@ import { getDefaultConfig } from "@rainbow-me/rainbowkit";
 const projectId = "87ccb211c4950e2221125586e8590227";
 
 // Define the custom chain
-const abcTestnet: WagmiChain = {
-  id: 112,
-  name: "ABC-Testnet",
+const electroneum: WagmiChain = {
+  id: 5201420,
+  name: "Electroneum Testnet",
   nativeCurrency: {
-    name: "ABC Token",
-    symbol: "ABC",
+    name: "Electroneum",
+    symbol: "ETN",
     decimals: 18,
   },
   rpcUrls: {
-    default: { http: ["https://rpc.abc.t.raas.gelato.cloud"] },
-    public: { http: ["https://rpc.abc.t.raas.gelato.cloud"] },
+    default: { http: ["https://rpc.ankr.com/electroneum_testnet"] },
+    public: { http: ["https://rpc.ankr.com/electroneum_testnet"] },
   },
   blockExplorers: {
     default: {
-      name: "ABC Explorer",
-      url: "https://explorer.abc.t.raas.gelato.cloud",
+      name: "Electroneum Testnet Explorer",
+      url: "https://blockexplorer.thesecurityteam.rocks/",
     },
   },
   testnet: true,
 };
 
 // Add the custom chain to the supported chains array
-const supportedChains: WagmiChain[] = [abcTestnet];
+const supportedChains: WagmiChain[] = [electroneum];
 
 export const config = getDefaultConfig({
   appName: "WalletConnection",
